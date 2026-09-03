@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  
+    
+  
+    <link rel="alternate" type="application/rss+xml" href="/rss.xml" />
+    
+    <link rel="shortcut icon" type="image/ico" href="https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="https://a0.awsstatic.com/libra-css/images/site/touch-icon-ipad-144-smile.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="https://a0.awsstatic.com/libra-css/images/site/touch-icon-ipad-144-smile.png"/>  
+  
+    <title>iNaturalist Licensed Observation Images - Registry of Open Data on AWS</title>
+  
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://assets.opendata.aws/css/bootstrap/3.4.1/bootstrap.min.css">
+  
+    <!-- Our local CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+  
+    <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Dataset",
+      "name" : "iNaturalist Licensed Observation Images",
+      "description" : "iNaturalist is a community science effort in which participants share observations of living organisms that they encounter and document with photographic evidence, location, and date. The community works together reviewing these images to identify these observations to species. This collection represents the licensed images accompanying iNaturalist observations.",
+      "license" : "Creative Commons or Public Domain (CC0), varying by image. More information on how to query and properly treat licenses can be found in the \u003ca href=\"https://github.com/inaturalist/inaturalist-open-data\"\u003edocumentation\u003c/a\u003e",
+      "sourceOrganization" : "\u003ca href=\"https://www.inaturalist.org/\"\u003eiNaturalist\u003c/a\u003e is an independent, tax-exempt, 501(c)(3), not-for-profit organization based in the United States of America (EIN/Tax ID: 92-1296468)."
+    }
+    </script>
+  
+  </head>
+  <body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://assets.opendata.aws/js/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://assets.opendata.aws/js/bootstrap/3.4.1/bootstrap.min.js"></script>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="roda-header">
+          <h2><a href="/" alt="Home">Registry of Open Data on AWS</a></h2>
+          <a href="http://aws.amazon.com/what-is-cloud-computing">
+            <img src="https://assets.opendata.aws/img/AWS-Logo_White-Color_300x180.png" alt="Powered by AWS Cloud Computing" id="aws_header_logo">
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container" >
+
+    <h1>iNaturalist Licensed Observation Images</h1>
+    <p>
+      
+
+      <span class="label label-info tag link-tag">biodiversity</span>
+
+      <span class="label label-info tag link-tag">bioinformatics</span>
+
+      <span class="label label-info tag link-tag">conservation</span>
+
+      <span class="label label-info tag link-tag">earth observation</span>
+
+      <span class="label label-info tag link-tag">life sciences</span>
+    </p>
+    <div class="row">
+      <div class="col-md-6">
+      <h3>Description</h3>
+      <p>iNaturalist is a community science effort in which participants share observations of living organisms that they encounter and document with photographic evidence, location, and date. The community works together reviewing these images to identify these observations to species. This collection represents the licensed images accompanying iNaturalist observations.</p>
+
+      <h4>Update Frequency</h4>
+      <p>Images are posted in real time, and we are currently copying over images from existing observations. Metadata is updated monthly. More information on the metadata can be found in the <a href="https://github.com/inaturalist/inaturalist-open-data">documentation</a></p>
+
+      <h4>License</h4>
+      <p>Creative Commons or Public Domain (CC0), varying by image. More information on how to query and properly treat licenses can be found in the <a href="https://github.com/inaturalist/inaturalist-open-data">documentation</a></p>
+
+      <h4>Documentation</h4>
+      <p>Documentation can be found <a href="https://github.com/inaturalist/inaturalist-open-data/tree/documentation">here</a>. You can learn more about iNaturalist <a href="https://www.inaturalist.org/">here</a>.</p>
+
+      <h4>Managed By</h4>
+      <p><a href="https://www.inaturalist.org/">iNaturalist</a> is an independent, tax-exempt, 501(c)(3), not-for-profit organization based in the United States of America (EIN/Tax ID: 92-1296468).</p>
+      <p>See all datasets managed by <a href="https://registry.opendata.aws?search&#x3D;managedBy:inaturalist">iNaturalist</a>.</p>
+
+      <h4>Contact</h4>
+      <p><a href="mailto:help@inaturalist.org">&#x68;&#101;&#x6c;&#x70;&#64;&#x69;&#x6e;&#x61;&#x74;&#x75;&#114;&#97;&#x6c;&#x69;&#x73;&#x74;&#46;&#x6f;&#x72;&#x67;</a></p>
+
+      <h4>How to Cite</h4>
+      <p>iNaturalist Licensed Observation Images was accessed on <code>DATE</code> from https://registry.opendata.aws/inaturalist-open-data. </p>
+
+
+    </div>
+    <div class="col-md-5 col-md-offset-1">
+      <h3>Resources on AWS</h3>
+      <ul class="resource-list">
+        <li>
+          <dl class="resource-list">
+            <dt class="resource-description">Description</dt>
+            <dd class="resource-description">Image files (e.g. JPEG) associated with metadata describing the observation associated with the image file.</dd>
+            <dt class="resource-type">Resource type</dt>
+            <dd class="resource-type s3-bucket">S3 Bucket</dd>
+            <dt class="resource-arn">Amazon Resource Name (ARN)</dt>
+            <dd><code>arn:aws:s3:::inaturalist-open-data</code></dd>
+            <dt class="resource-region">AWS Region</dt>
+            <dd><code>us-east-1</code></dd>
+            <dt class="resource-region"><a href="https://aws.amazon.com/cli/">AWS CLI</a> Access (No AWS account required)</dt>
+            <dd><code>aws s3 ls --no-sign-request s3://inaturalist-open-data/</code></dd>
+          </dl>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    <hr/>
+    <p><a href="https://github.com/awslabs/open-data-registry/blob/main/datasets/inaturalist-open-data.yaml">Edit this dataset entry on GitHub</a></p>
+    <p><a href="mailto:opendata@amazon.com">Tell us about your project</a></p>
+    <p><a href="/"><b>Home</b></a></p>
+  </div>
+  <script src="/js/tags.js"></script>
