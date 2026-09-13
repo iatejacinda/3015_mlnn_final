@@ -191,10 +191,8 @@ Because the system is hierarchical, an incorrect prediction at the Order or Fami
 ├── threatened_mammal_classification.html
 ├── README.md
 ├── .gitignore
-├── archive/
-│   └── experiments.ipynb
-└── data/
-    └── .gitkeep
+└── archive/
+    └── experiments.ipynb
 ```
 
 The processed NumPy dataset files are not included in the repository.
